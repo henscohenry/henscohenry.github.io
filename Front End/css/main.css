@@ -1,0 +1,385 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #e6ecf0;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 60vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  nav {
+    margin-top: -4.2em;
+  }
+}
+nav{
+  background: #000;
+}
+
+nav .navbar-brand img{
+  width: 90px;
+}
+.navbar .team img{
+  width: 90px;
+}
+
+.navbar ul li{
+  padding: 0 10px;
+ 
+}
+.navbar-toggler{
+  background: #0f499d;
+  color: #fff;
+}
+#navbarResponsive ul li a{
+  color: #fff;
+  font-family: 'Raleway';
+}
+
+
+
+
+#navbarResponsive ul li a:hover{
+  border: 2px solid #0061e5;
+  
+  
+}
+
+/*search*/
+
+#search{
+  margin-top: 1.2em;
+}
+#search .form-control{
+  width: 70%;
+  border-radius: 5px;
+  height: 2.7em;
+}
+
+#search .form-inline button{
+  background:#0061e5;
+  color: #fff;
+  border-radius: 5px;
+  height: 3.2em;
+  margin-left: -0.6em;
+  width: 20%;
+}
+
+#search .form-inline button:hover{
+  background: none;
+  color: #0061e5;
+}
+
+
+
+
+
+
+#navbarResponsive .active a{
+  color: #fff;
+}
+
+
+/*slider*/
+
+#carouselExampleSlidesOnly .carousel-caption{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+
+}
+
+#carouselExampleSlidesOnly h1{
+  font-family: 'Raleway';
+
+}
+
+#carouselExampleSlidesOnly .carousel-caption p{
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
+
+}
+
+#support .carousel-item{
+  height: 80vh;
+}
+
+
+#cards .card-deck{
+  margin-bottom: 1.2em;
+}
+
+#cards h6{
+  font-family: 'Merriweather';
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+#cards .card{
+  box-shadow: 5px 5px 5px 5px #ececea;
+}
+
+#cards .card a{
+  text-decoration: none;
+  color: #000;
+}
+
+#cards .card a:hover{
+  background: #00ff00;
+  color: #fff;
+}
+#cards .card-title{
+  font-family: 'Merriweather';
+}
+#cards .card-text ul li{
+  list-style: none;
+  font-family: 'Raleway';
+  padding-left: 0;
+  margin-left: -2.4em;
+}
+
+#cards .card-text .fas, .far{
+  padding: 0 4px;
+}
+
+#cards .btn{
+  margin: 0 5px;
+}
+
+
+#cards .btn-primary{
+  background: #df3d82;
+  font-family: 'Merriweather';
+  border: none;
+}
+
+#cards .btn-secondary{
+  background: #0061e5;
+  font-family: 'Merriweather';
+  border: none;
+}
+
+#cards .btn-primary:hover{
+  background: #0061e5;  
+}
+
+#cards .btn-secondary:hover{
+  background: #df3d82;
+ 
+}
+
+/*log-in*/
+
+
+
+#body{
+  background: #e6ecf0;
+
+}
+
+#section-a{
+  padding: 10px 10px;
+}
+
+
+#section-a .main-section{
+  margin: 0 auto;
+  padding: 0;
+
+  
+}
+
+@media (min-width: 992px) {
+  #section-a .main-section{
+   
+
+  }
+}
+
+#section-a  img{
+  width: 100px;
+  margin-bottom: 1.2em;
+  margin-top: 2rem;
+}
+
+#section-a .modal-content{
+  border: none;
+ background: #e6ecf0;
+  padding: 10px 10px;
+}
+
+#section-a input{
+  border-color:  #00ff00;
+  width: 100%;
+  border-radius: 2px;
+  font-family: 'Raleway';
+}
+
+#section-a input:focus{
+  border-color: #aeaeae;
+}
+
+
+
+#section-a .btn{
+  background: #df3d82;
+  color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 2px;
+  font-family: 'Merriweather';
+
+}
+
+#section-a .btn:hover{
+  background: red;
+  color: #fff;
+}
+
+#section-a .forgot .btn-2{
+  text-decoration: none;
+  font-family: 'Raleway';
+ 
+}
+
+#section-a .forgot p a{
+  text-decoration: none;
+
+}
+
+#section-a .forgot p a:hover{
+  color: #00ff00;
+}
+#section-a .forgot .btn-2:hover{
+  color: #00ff00;
+ 
+}
+
+#section-a .modal-content h6{
+  font-family: 'Raleway';
+}
+
+#section-a .h2{
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+#section-a .terms a{
+  text-decoration: none;
+}
+
+#section-a .terms a:hover{
+  color: #00ff00;
+}
+
+#section-a .log a{
+  text-decoration: none;
+}
+
+#section-a .log a:hover{
+  color: #00ff00;
+}
+
+
+/*page*/
+
+#page h2{
+  font-family: 'Merriweather';
+  font-size: 30px;
+  color: #df3d82;
+  text-transform: uppercase;
+}
+
+#page h5, h6, h3{
+  font-family: 'Merriweather';
+}
+
+#page  .fas{
+  padding-right: 5px;
+  color: #000;
+  font-size: 22px;
+}
+
+
+#page .h3{
+  font-family: 'Merriweather';
+  padding-top: 10px;
+}
+
+#page .btn{
+  background: #df3d82;
+  border: none;
+  border-radius: 2px;
+}
+
+#page .btn:hover{
+  background: #e6312b;
+}
+#page .card-title{
+  color: #e6312b;
+}
+footer{
+  background: #1a1a1a;
+  position: relative;
+  top: 250px;
+  padding-bottom: -1.2em;
+  height: 40%;
+}
+
+footer h2{
+  font-family: 'Merriweather';
+  padding-top: 5px;
+}
+
+footer p{
+  font-family: 'Raleway';
+}
+footer .social li{
+  list-style: none;
+  display: inline-block;
+}
+
+footer .social .fa-facebook{
+  color: #3B5998;
+}
+
+footer .social .fa-twitter{
+  color: #0084b4;
+}
+
+footer .social .fa-instagram{
+  color: #fb3958;
+}
+
+footer .links li{
+  display: inline-block;
+}
+
+footer ul li {
+  padding: 10px 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer p{
+  padding: 10px 10px;
+}
+
+

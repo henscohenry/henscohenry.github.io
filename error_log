@@ -1,0 +1,4 @@
+[06-Aug-2018 09:40:37 America/Chicago] PHP Warning:  require_once(../Customers/includes/initialise.php): failed to open stream: No such file or directory in /home/shamalan/poppin.shamalandscapes.com/show_admin.php on line 3
+[06-Aug-2018 09:40:37 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../Customers/includes/initialise.php' (include_path='.:/opt/php54/lib/php') in /home/shamalan/poppin.shamalandscapes.com/show_admin.php on line 3
+[13-Aug-2018 00:58:42 America/Chicago] PHP Warning:  require_once(../Customers/includes/initialise.php): failed to open stream: No such file or directory in /home/shamalan/poppin.shamalandscapes.com/show_admin.php on line 3
+[13-Aug-2018 00:58:42 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../Customers/includes/initialise.php' (include_path='.:/opt/php54/lib/php') in /home/shamalan/poppin.shamalandscapes.com/show_admin.php on line 3

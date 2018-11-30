@@ -1,0 +1,90 @@
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
+}
+
+
+.navbar-brand img{
+	width: 150px;
+	margin-top: -1.0em;
+}
+
+#navbarResponsive ul li a{
+	color: #0f499d;
+}
+
+#navbarResponsive ul li a:hover{
+	color: #a6ce39;
+}
+
+#navbarResponsive .btn{
+	background: red;
+	color: #fff;
+	border: none;
+	border-radius: 0;
+}
+
+#blog .card a{
+	text-decoration: none;
+}
+
+#blog .card:hover{
+	box-shadow: 0 5px 5px 0 #1a1a1a;
+}
+
+footer{
+  background: #102234;
+  color: #fff;
+  padding-top: 2rem;
+  margin-top: 20px;
+}
+
+footer .fab{
+  padding: 10px 10px 10px 10px;
+}
+
+footer .fa-facebook{
+  color: #3b5998;
+}
+footer .fa-twitter{
+  color: #00aced;
+}
+footer .fa-instagram{
+  color: #517fa4;
+}
+footer .fa-youtube{
+  color: #bb0000;
+}
+
+footer hr.light{
+  border: 1px solid #d5d5d5;
+
+}
+
+footer .link {
+  text-decoration: none;
+}
+
+footer .link:hover{
+  color: #a6ce39
+}
+
+footer .action{
+  background: #0f499d;
+
+  text-align: center;
+}
+
+footer .action h5{
+  font-family: roboto;
+}
